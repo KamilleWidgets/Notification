@@ -44,11 +44,11 @@ $conf = [
     ],
     "widgets" => [
         "main.notification" => [
-            "name" => "notification/default",
+            "name" => "Notification/default",
             "conf" => [
                 "notifications" => [
                     [
-                        "type" => null,
+                        "type" => "error",
                         "title" => "Oops",
                         "msg" => "Dude, an error occurred, sorry",
                     ],
