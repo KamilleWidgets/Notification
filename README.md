@@ -39,12 +39,12 @@ Demo snippet
 
 $conf = [
     "layout" => [
-        "name" => "splash/default",
+        "tpl" => "splash/default",
         "conf" => [],
     ],
     "widgets" => [
         "main.notification" => [
-            "name" => "Notification/default",
+            "tpl" => "Notification/default",
             "conf" => [
                 "notifications" => [
                     [
